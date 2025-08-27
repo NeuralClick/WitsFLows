@@ -25,7 +25,7 @@ const LandingPage = () => {
             <Button className="px-8 py-6 text-lg bg-accent-teal hover:bg-accent-teal/90 text-dark-charcoal font-bold rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
               Explore Workflows
             </Button>
-            <Button variant="outline" className="px-8 py-6 text-lg border-2 border-white text-white hover:bg-white hover:text-primary-violet font-bold rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
+            <Button variant="outline" className="px-8 py-6 text-lg border-2 border-white text-primary-violet hover:bg-white hover:text-primary-violet font-bold rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
               Sell Your Workflows
             </Button>
           </div>
