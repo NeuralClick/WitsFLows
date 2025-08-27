@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Star, Search, Rocket, Settings, FastForward, Puzzle, Users, MousePointerClick, Mail, ShoppingCart, Network } from "lucide-react";
-import { MadeWithDyad } from "@/components/made-with-dyad";
+// import { MadeWithDyad } from "@/components/made-with-dyad"; // Removed import
 
 const LandingPage = () => {
   return (
@@ -241,7 +241,7 @@ const LandingPage = () => {
           </Button>
         </div>
       </section>
-      <MadeWithDyad />
+      {/* <MadeWithDyad /> */}
     </div>
   );
 };
