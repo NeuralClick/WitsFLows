@@ -34,6 +34,13 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* Early Access CTA Section - Moved to top */}
+      <section className="py-20 bg-dark-charcoal text-center">
+        <div className="max-w-6xl mx-auto px-6">
+          <EarlyAccessForm />
+        </div>
+      </section>
+
       {/* How It Works Section */}
       <section className="py-20 bg-dark-charcoal text-center">
         <div className="max-w-6xl mx-auto px-6">
@@ -225,13 +232,6 @@ const LandingPage = () => {
               <p className="text-md text-light-gray">Our unique 'Deploy' button makes launching complex automations incredibly simple.</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Early Access CTA Section */}
-      <section className="py-20 bg-dark-charcoal text-center">
-        <div className="max-w-6xl mx-auto px-6">
-          <EarlyAccessForm />
         </div>
       </section>
 
