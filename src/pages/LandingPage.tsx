@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Star, Search, Rocket, Settings, FastForward, Puzzle, Users, MousePointerClick, Mail, ShoppingCart, Network } from "lucide-react";
+import EarlyAccessForm from "@/components/EarlyAccessForm"; // Import the new component
 // import { MadeWithDyad } from "@/components/made-with-dyad"; // Removed import
 
 const LandingPage = () => {
@@ -224,6 +225,13 @@ const LandingPage = () => {
               <p className="text-md text-light-gray">Our unique 'Deploy' button makes launching complex automations incredibly simple.</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Early Access CTA Section */}
+      <section className="py-20 bg-dark-charcoal text-center">
+        <div className="max-w-6xl mx-auto px-6">
+          <EarlyAccessForm />
         </div>
       </section>
 
