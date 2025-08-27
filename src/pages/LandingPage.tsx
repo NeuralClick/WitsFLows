@@ -24,12 +24,7 @@ const LandingPage = () => {
             Discover, deploy, and monetize powerful n8n workflows. Your future of efficiency starts here.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button className="px-8 py-6 text-lg bg-accent-teal hover:bg-accent-teal/90 text-dark-charcoal font-bold rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
-              Explore Workflows
-            </Button>
-            <Button variant="outline" className="px-8 py-6 text-lg border-2 border-white text-primary-violet hover:bg-white hover:text-primary-violet font-bold rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
-              Sell Your Workflows
-            </Button>
+            <EarlyAccessModal />
           </div>
           <p className="text-sm text-light-gray mt-8">Join the future of intelligent automation.</p>
         </div>
@@ -38,7 +33,7 @@ const LandingPage = () => {
       {/* Early Access CTA Section - Now a button that opens a modal */}
       <section className="py-20 bg-dark-charcoal text-center">
         <div className="max-w-6xl mx-auto px-6">
-          <EarlyAccessModal />
+          {/* The EarlyAccessModal is already present in the Hero section, so this section can be removed or repurposed if needed. */}
         </div>
       </section>
 
