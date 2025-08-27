@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Star, Search, Rocket, Settings, FastForward, Puzzle, Users, MousePointerClick, Mail, ShoppingCart, Network } from "lucide-react";
-import EarlyAccessForm from "@/components/EarlyAccessForm"; // Import the new component
+import EarlyAccessModal from "@/components/EarlyAccessModal"; // Import the new modal component
+// import EarlyAccessForm from "@/components/EarlyAccessForm"; // Removed import
 // import { MadeWithDyad } from "@/components/made-with-dyad"; // Removed import
 
 const LandingPage = () => {
@@ -34,10 +35,10 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Early Access CTA Section - Moved to top */}
+      {/* Early Access CTA Section - Now a button that opens a modal */}
       <section className="py-20 bg-dark-charcoal text-center">
         <div className="max-w-6xl mx-auto px-6">
-          <EarlyAccessForm />
+          <EarlyAccessModal />
         </div>
       </section>
 
